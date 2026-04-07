@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Foodie Delight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Foodie Delight Logo">
+                <h1>Foodie Delight</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" id="cartLink">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-page">
+        <div class="container">
+            <div class="about-header">
+                <h1>About Foodie Delight</h1>
+                <p>Learn more about our story and mission</p>
+            </div>
+            
+            <div class="about-content">
+    <h2>Our Story</h2>
+    <p>Founded in 2026, Foodie Delight was created with a clear vision: to make healthy eating simple, accessible, and enjoyable. What began as a small kitchen focused on fresh meals has grown into a trusted brand for people who want to eat better without sacrificing taste.</p>
+    
+    <h2>Our Mission</h2>
+    <p>We believe that food should nourish both the body and the mind. Our mission is to provide balanced, nutritious meals made from real ingredients, helping our customers maintain a healthy lifestyle every day.</p>
+    
+    <h2>Quality Ingredients</h2>
+    <p>We carefully select fresh, wholesome ingredients sourced from trusted local suppliers. From organic vegetables to high-quality proteins, every ingredient is chosen to support health, flavor, and sustainability.</p>
+    
+    <h2>Our Approach</h2>
+    <p>Our meals are designed to be both healthy and delicious. We focus on balanced nutrition, offering options rich in protein, fiber, and essential nutrients — all prepared with care to keep you energized throughout your day.</p>
+</div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <span class="close-btn" id="closeCart">&times;</span>
+            </div>
+            <div class="cart-body">
+                <div id="cartItems">
+                    <!-- Cart items will be loaded here -->
+                    <p class="empty-cart-message">Your cart is empty</p>
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total">
+                        <h3>Total: ₽<span id="cartTotal">0.00</span></h3>
+                    </div>
+                    <button class="btn-primary checkout-btn" id="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Foodie Delight</h3>
+                    <p>Delivering delicious food with love since 2026</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> ул. Тверская, 15, Москва, Россия</p>
+                    <p><i class="fas fa-phone"></i> +7 (995) 630-50-45 / +7 (995) 630-63-55</p>
+                    <p><i class="fas fa-envelope"></i> info@foodiedelight.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Foodie Delight. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
